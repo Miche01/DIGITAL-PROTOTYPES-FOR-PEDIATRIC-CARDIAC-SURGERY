@@ -1,11 +1,7 @@
 # DIGITAL-PROTOTYPES-FOR-PEDIATRIC-CARDIAC-SURGERY
 Human Modelling in Engineering | Politecnico di Milano Academic Year: 2023-2024
 
-🎯 **Aim** 
-
-Design a complete heart simulator made of the models of two pediatric pathological hearts put in an environment that replicates the rib cage. This ensemble is thought to be used for surgical simulation allowing surgeons to practice the surgical procedures for TGA and DORV pathologies.
-
-📌 **Project Overview**
+# 📌 **Project Overview**
 
 Pediatric cardiac surgeries are exceptionally challenging due to the small size of the organs and the complexity of congenital heart diseases (CHD). This project focuses on designing two digital 3D prototypes of pediatric hearts with specific malformations to be used in Hands-on Surgical Training (HOST). By creating patient-specific models from CT scans, surgeons can practice procedures on replicas that closely resemble the actual anatomy of the child.
 
@@ -14,6 +10,10 @@ Pediatric cardiac surgeries are exceptionally challenging due to the small size 
 The project replicates two major pathologies:
 Transposition of the Great Arteries (TGA): A condition where the aorta is connected to the right ventricle and the pulmonary artery to the left ventricle.
 Double Outlet Right Ventricle (DORV): A rare defect where both the aorta and the pulmonary artery arise abnormally from the right ventricle.
+
+🎯 **Aim** 
+
+Design a complete heart simulator made of the models of two pediatric pathological hearts put in an environment that replicates the rib cage. This ensemble is thought to be used for surgical simulation allowing surgeons to practice the surgical procedures for TGA and DORV pathologies.
 
 # 🛠️ **Technical Workflow**
 
@@ -44,7 +44,10 @@ The project successfully produced two complete digital simulators:
 
 👥 **Authors**
 
-Miuccio Michela Paola Benedetta  
+Miuccio Michela Paola Benedetta 
+
 Rizzo Chiara
+
 Professor: Bertolini Michele 
+
 Institution: Politecnico di Milano - School of Industrial and Information Engineering
