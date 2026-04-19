@@ -58,8 +58,8 @@ The development process utilized advanced medical imaging and 3D modeling softwa
 ## 📊 Results
 
 The project successfully produced two complete digital simulators:
-- TGA Simulator: Features a hollowed heart model with corrected myocardium and specific mounting connectors. [TGA_simulator](./Images/Platform_TGA.jpg)
-- DORV Simulator: Includes the complex ventricular anatomy and a modular attachment system for the rib cage environment. [DORV_simulator](./Images/Platform_DORV.jpg)
+- TGA Simulator: Features a hollowed heart model with corrected myocardium and specific mounting connectors. [TGA_simulator](Images/Platform_TGA .jpg)
+- DORV Simulator: Includes the complex ventricular anatomy and a modular attachment system for the rib cage environment. [DORV_simulator](Images/Platform_DORV .jpg)
 
 🚀 **Future Developments**
 
