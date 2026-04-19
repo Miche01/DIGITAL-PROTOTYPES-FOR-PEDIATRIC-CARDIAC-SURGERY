@@ -1,6 +1,16 @@
 # DIGITAL PROTOTYPES FOR PEDIATRIC CARDIAC SURGERY 🫀
 Human Modelling in Engineering | Politecnico di Milano Academic Year: 2023-2024
 
+<br>
+
+<table border="0">
+ <tr>
+    <td><img src="DIGITAL-PROTOTYPES-FOR-PEDATRIC-CARDIAC-SURGERY/Images/DORV+miocardio+hollow dietro.jpg"></td>
+    <td><img src="percorso/della/tua/foto2.jpg" width="100%" alt="Heart Model 2"></td>
+ </tr>
+</table>
+
+<br>
 ## 📌 **Project Overview**
 
 Pediatric cardiac surgeries are exceptionally challenging due to the small size of the organs and the complexity of congenital heart diseases (CHD). This project focuses on designing two digital 3D prototypes of pediatric hearts with specific malformations to be used in Hands-on Surgical Training (HOST). By creating patient-specific models from CT scans, surgeons can practice procedures on replicas that closely resemble the actual anatomy of the child.
