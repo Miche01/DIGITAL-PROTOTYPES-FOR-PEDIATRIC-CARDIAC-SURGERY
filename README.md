@@ -1,4 +1,4 @@
-# DIGITAL-PROTOTYPES-FOR-PEDIATRIC-CARDIAC-SURGERY
+# DIGITAL PROTOTYPES FOR PEDIATRIC CARDIAC SURGERY 🫀
 Human Modelling in Engineering | Politecnico di Milano Academic Year: 2023-2024
 
 ## 📌 **Project Overview**
@@ -8,8 +8,8 @@ Pediatric cardiac surgeries are exceptionally challenging due to the small size 
 🏥 **Clinical Context**
 
 The project replicates two major pathologies:
-Transposition of the Great Arteries (TGA): A condition where the aorta is connected to the right ventricle and the pulmonary artery to the left ventricle.
-Double Outlet Right Ventricle (DORV): A rare defect where both the aorta and the pulmonary artery arise abnormally from the right ventricle.
+* Transposition of the Great Arteries (TGA): A condition where the aorta is connected to the right ventricle and the pulmonary artery to the left ventricle.
+* Double Outlet Right Ventricle (DORV): A rare defect where both the aorta and the pulmonary artery arise abnormally from the right ventricle.
 
 🎯 **Aim** 
 
@@ -18,14 +18,15 @@ Design a complete heart simulator made of the models of two pediatric pathologic
 ## 🛠️ **Technical Workflow**
 
 The development process utilized advanced medical imaging and 3D modeling software:
-1. Segmentation & ModelingSoftware: Mimics Innovation Suite (Materialise).
+1. Segmentation & Modeling
+   * Software: Mimics Innovation Suite (Materialise).
    * Process: CT scans acquired in London were used to isolate cardiac chambers and great vessels.
    * Anatomy: Models include the myocardium, segmented using specific Hounsfield Unit (HU) thresholds (e.g., 65 HU - 3071 HU).
-2. Post-Processing
+3. Post-Processing
    * Software: 3-Matic.
    * Refinement: Applied Adaptive Mesh (0.1 mm edge length), Wrap (3 mm gap closing), and Smooth functions to enhance surface quality.
    * Finalization: The hearts were hollowed to a total wall thickness of 0.7 mm and vessels were trimmed to allow for surgical access simulation.
-3. Modular Simulator Design
+4. Modular Simulator Design
    * Components: A simulated rib cage (with a sternal gap for surgical access) and a support platform.
    * Connectors: Designed from scratch in Solidworks 2023 to fit the specific vessel openings (Superior Vena Cava and Pulmonary Arteries) of each pathological model.
    
@@ -42,11 +43,12 @@ The project successfully produced two complete digital simulators:
 - Integration with Augmented Reality (AR) for immersive surgical simulations.
 
 
- ## **Software **
-* **Mimics Innovation Suite**: per la segmentazione.
-* **3-Matic**: per il post-processing e il design dei prototipi.
+ ## 💻 Software
+* **Mimics Innovation Suite**
+* **3-Matic**
+* **Solidworks**
 
-## 👥**Autors**
+## 👥**Authors**
 **Miuccio Michela Paola Benedetta**  
-**Rizzo Chiara**
+**Rizzo Chiara**  
 Institution: Politecnico di Milano - School of Industrial and Information Engineering 
