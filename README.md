@@ -1,24 +1,41 @@
 # DIGITAL PROTOTYPES FOR PEDIATRIC CARDIAC SURGERY 🫀
 Human Modelling in Engineering | Politecnico di Milano Academic Year: 2023-2024
 
-<br>
-
-<table border="0">
- <tr>
-    <td><img src="DIGITAL-PROTOTYPES-FOR-PEDATRIC-CARDIAC-SURGERY/Images/DORV+miocardio+hollow dietro.jpg"></td>
-    <td><img src="percorso/della/tua/foto2.jpg" width="100%" alt="Heart Model 2"></td>
- </tr>
-</table>
-
-<br>
 ## 📌 **Project Overview**
 
-Pediatric cardiac surgeries are exceptionally challenging due to the small size of the organs and the complexity of congenital heart diseases (CHD). This project focuses on designing two digital 3D prototypes of pediatric hearts with specific malformations to be used in Hands-on Surgical Training (HOST). By creating patient-specific models from CT scans, surgeons can practice procedures on replicas that closely resemble the actual anatomy of the child.
+Pediatric cardiac surgeries are exceptionally challenging due to the small size of the organs and the complexity of congenital heart diseases (CHD). This project focuses on designing two digital 3D prototypes of pediatric hearts with specific malformations to be used in Hands-on Surgical Training (HOST). By creating patient-specific models from CT scans, surgeons can practice procedures on replicas that closely resemble the actual anatomy of the child.  
+<br>
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center">
+        <img src="Images/DORV_model.jpg" width="70%" alt="DORV Heart Model">
+        <br>
+        <em>DORV Model</em>
+      </td>
+      <td align="center">
+        <img src="Images/TGA_model.jpg" width="65%" alt="TGA Heart Model">
+        <br>
+        <em>TGA Model</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>  
+
+<div align="center">
+  <br>
+  <p align="center">
+    <em><strong>Figure 1:</strong> The two pathological heart models, including the myocardium, obtained after segmentation and post-processing.</em>
+  </p>
+</div>
 
 🏥 **Clinical Context**
 
 The project replicates two major pathologies:
-* Transposition of the Great Arteries (TGA): A condition where the aorta is connected to the right ventricle and the pulmonary artery to the left ventricle.
+* Transposition of the Great Arteries (TGA): A condition where the aorta is connected to the right ventricle and the pulmonary artery to the left ventricle.  
 * Double Outlet Right Ventricle (DORV): A rare defect where both the aorta and the pulmonary artery arise abnormally from the right ventricle.
 
 🎯 **Aim** 
@@ -35,7 +52,7 @@ The development process utilized advanced medical imaging and 3D modeling softwa
 3. Post-Processing
    * Software: 3-Matic.
    * Refinement: Applied Adaptive Mesh (0.1 mm edge length), Wrap (3 mm gap closing), and Smooth functions to enhance surface quality.
-   * Finalization: The hearts were hollowed to a total wall thickness of 0.7 mm and vessels were trimmed to allow for surgical access simulation.
+   * Finalization: The hearts were hollowed to a total wall thickness of 0.7 mm and vessels were trimmed to allow for surgical access simulation.[Final Models](./Models)
 4. Modular Simulator Design
    * Components: A simulated rib cage (with a sternal gap for surgical access) and a support platform.
    * Connectors: Designed from scratch in Solidworks 2023 to fit the specific vessel openings (Superior Vena Cava and Pulmonary Arteries) of each pathological model.
