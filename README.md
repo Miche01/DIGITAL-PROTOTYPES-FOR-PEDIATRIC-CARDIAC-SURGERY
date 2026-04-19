@@ -23,8 +23,6 @@ Pediatric cardiac surgeries are exceptionally challenging due to the small size 
   </table>
 </div>
 
-<br>  
-
 <div align="center">
   <br>
   <p align="center">
@@ -52,7 +50,7 @@ The development process utilized advanced medical imaging and 3D modeling softwa
 3. Post-Processing
    * Software: 3-Matic.
    * Refinement: Applied Adaptive Mesh (0.1 mm edge length), Wrap (3 mm gap closing), and Smooth functions to enhance surface quality.
-   * Finalization: The hearts were hollowed to a total wall thickness of 0.7 mm and vessels were trimmed to allow for surgical access simulation.[Download Final Models](./Heart_models)
+   * Finalization: The hearts were hollowed to a total wall thickness of 0.7 mm and vessels were trimmed to allow for surgical access simulation. [Download Final Models](./Heart_models)
 4. Modular Simulator Design
    * Components: A simulated rib cage (with a sternal gap for surgical access) and a support platform.
    * Connectors: Designed from scratch in Solidworks 2023 to fit the specific vessel openings (Superior Vena Cava and Pulmonary Arteries) of each pathological model.
@@ -60,8 +58,8 @@ The development process utilized advanced medical imaging and 3D modeling softwa
 ## 📊 Results
 
 The project successfully produced two complete digital simulators:
-- TGA Simulator: Features a hollowed heart model with corrected myocardium and specific mounting connectors.
-- DORV Simulator: Includes the complex ventricular anatomy and a modular attachment system for the rib cage environment.
+- TGA Simulator: Features a hollowed heart model with corrected myocardium and specific mounting connectors. [TGA_simulator](./Images/Platform_TGA)
+- DORV Simulator: Includes the complex ventricular anatomy and a modular attachment system for the rib cage environment. [DORV_simulator](./Images/Platform_DORV)
 
 🚀 **Future Developments**
 
