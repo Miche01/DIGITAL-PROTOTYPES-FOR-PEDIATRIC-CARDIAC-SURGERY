@@ -4,6 +4,13 @@ Human Modelling in Engineering | Politecnico di Milano Academic Year: 2023-2024
 ## 📌 **Project Overview**
 
 Pediatric cardiac surgeries are exceptionally challenging due to the small size of the organs and the complexity of congenital heart diseases (CHD). This project focuses on designing two digital 3D prototypes of pediatric hearts with specific malformations to be used in Hands-on Surgical Training (HOST). By creating patient-specific models from CT scans, surgeons can practice procedures on replicas that closely resemble the actual anatomy of the child.  
+
+### 🏥 **Clinical Context**
+
+The project replicates two major pathologies:
+* Transposition of the Great Arteries (TGA): A condition where the aorta is connected to the right ventricle and the pulmonary artery to the left ventricle.  
+* Double Outlet Right Ventricle (DORV): A rare defect where both the aorta and the pulmonary artery arise abnormally from the right ventricle.
+
 <br>
 
 <div align="center">
@@ -30,13 +37,7 @@ Pediatric cardiac surgeries are exceptionally challenging due to the small size 
   </p>
 </div>
 
-🏥 **Clinical Context**
-
-The project replicates two major pathologies:
-* Transposition of the Great Arteries (TGA): A condition where the aorta is connected to the right ventricle and the pulmonary artery to the left ventricle.  
-* Double Outlet Right Ventricle (DORV): A rare defect where both the aorta and the pulmonary artery arise abnormally from the right ventricle.
-
-🎯 **Aim** 
+### 🎯 **Aim** 
 
 Design a complete heart simulator made of the models of two pediatric pathological hearts put in an environment that replicates the rib cage. This ensemble is thought to be used for surgical simulation allowing surgeons to practice the surgical procedures for TGA and DORV pathologies.
 
@@ -60,10 +61,11 @@ The development process utilized advanced medical imaging and 3D modeling softwa
 The project successfully produced two complete digital simulators:
 - TGA Simulator: Features a hollowed heart model with corrected myocardium and specific mounting connectors. [TGA_simulator](./Images/Platform_TGA.jpg)
 - DORV Simulator: Includes the complex ventricular anatomy and a modular attachment system for the rib cage environment. [DORV_simulator](./Images/Platform_DORV.jpg)
-### 📂 Project Resources
- 📄 [Download Full PDF Report](./Report_Project_5_Final.pdf)
   
-🚀 **Future Developments**
+### 📂 Project Resources
+ 📄 For more details: [Download Full PDF Report](./Report_Project_5.pdf)
+  
+### 🚀 **Future Developments**
 
 - Incorporation of internal structures such as cardiac valves and chordae tendineae.
 - Testing of biocompatible materials (e.g., silicone molding) to better mimic the mechanical properties of real tissue.
